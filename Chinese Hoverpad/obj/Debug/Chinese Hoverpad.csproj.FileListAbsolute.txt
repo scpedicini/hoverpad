@@ -1,0 +1,13 @@
+C:\Users\scpedicini\Dropbox\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\bin\Debug\Chinese Hoverpad.exe.config
+C:\Users\scpedicini\Dropbox\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\bin\Debug\Chinese Hoverpad.exe.manifest
+C:\Users\scpedicini\Dropbox\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\bin\Debug\Chinese Hoverpad.application
+C:\Users\scpedicini\Dropbox\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\bin\Debug\Chinese Hoverpad.exe
+C:\Users\scpedicini\Dropbox\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\bin\Debug\Chinese Hoverpad.pdb
+C:\Users\scpedicini\Dropbox\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\Debug\Chinese_Hoverpad.WndEditor.resources
+C:\Users\scpedicini\Dropbox\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\Debug\Chinese_Hoverpad.Properties.Resources.resources
+C:\Users\scpedicini\Dropbox\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\Debug\Chinese Hoverpad.csproj.GenerateResource.Cache
+C:\Users\scpedicini\Dropbox\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\Debug\Chinese Hoverpad.exe.manifest
+C:\Users\scpedicini\Dropbox\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\Debug\Chinese Hoverpad.application
+C:\Users\scpedicini\Dropbox\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\Debug\Chinese Hoverpad.exe
+C:\Users\scpedicini\Dropbox\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\Debug\Chinese Hoverpad.pdb
+C:\Users\scpedicini\Dropbox\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\Debug\Chinese Hoverpad.csprojResolveAssemblyReference.cache
