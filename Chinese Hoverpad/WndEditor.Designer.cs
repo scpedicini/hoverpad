@@ -79,7 +79,7 @@
             this.Controls.Add(this.TextEditor);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "WndEditor";
-            this.Text = "Chinese Hoverpad";
+            this.Text = "Chinese Hoverpad (Meta Peaks Technologies)";
             this.ResumeLayout(false);
             this.PerformLayout();
 
