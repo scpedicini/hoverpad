@@ -32,6 +32,19 @@ namespace Chinese_Hoverpad
 
             TextEditor.MouseWheel += TextEditor_MouseWheel;
 
+            try
+            {
+                if (!string.IsNullOrWhiteSpace(Properties.Settings.Default.FontName))
+                {
+                    TextEditor.Font = new Font(Properties.Settings.Default.FontName, TextEditor.Font.Size);
+                }
+            }
+            catch
+            {
+                // revert to default font
+            }
+
+
 
             #if DEBUG
             TextEditor.Text = "在歷史上那種事件已經發生了很多次。";
@@ -311,6 +324,29 @@ namespace Chinese_Hoverpad
         private void MenuToTraditional_Click(object sender, EventArgs e)
         {
             TextEditor.Text = Microsoft.VisualBasic.Strings.StrConv(TextEditor.Text, Microsoft.VisualBasic.VbStrConv.TraditionalChinese);
+        }
+
+        private void MenuFont_Click(object sender, EventArgs e)
+        {
+            FontDialog fd = new FontDialog() { Font = TextEditor.Font, FontMustExist = true, AllowVectorFonts = false };
+            try
+            {
+                if (fd.ShowDialog(this) == System.Windows.Forms.DialogResult.OK)
+                {
+                    // change font name
+
+
+                    TextEditor.Font = new Font(fd.Font.Name, TextEditor.Font.Size);
+                    // save change
+                    Properties.Settings.Default.FontName = fd.Font.Name;
+                    Properties.Settings.Default.Save();
+
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(this, "An error occurred with the chosen font: " + fd.Font.Name + Environment.NewLine, "Chinese Hoverpad", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
       

@@ -42,24 +42,24 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Chinese Hoverpad.exe" size="8380416">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Chinese Hoverpad.exe" size="8381440">
       <assemblyIdentity name="Chinese Hoverpad" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>B0h7V7FxJWnxgLP9yZTcPImyAVE=</dsig:DigestValue>
+        <dsig:DigestValue>q6O2AvsQO2V6Yiz0YLPNZsyYrHw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Chinese Hoverpad.exe.config" size="182">
+  <file name="Chinese Hoverpad.exe.config" size="927">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>wM2gA+0uB5Fhk7V9+uZ5oGZBRNE=</dsig:DigestValue>
+      <dsig:DigestValue>bBID6iTsFXib/dFagLgehkjIOq0=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

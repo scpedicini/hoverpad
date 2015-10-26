@@ -34,8 +34,9 @@
             this.TimerPopup = new System.Windows.Forms.Timer(this.components);
             this.TextEditor = new System.Windows.Forms.TextBox();
             this.MainMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.MenuToTraditional = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuToSimplified = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuToTraditional = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuFont = new System.Windows.Forms.ToolStripMenuItem();
             this.MainMenu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -79,9 +80,17 @@
             // 
             this.MainMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MenuToSimplified,
-            this.MenuToTraditional});
+            this.MenuToTraditional,
+            this.MenuFont});
             this.MainMenu.Name = "MainMenu";
-            this.MainMenu.Size = new System.Drawing.Size(180, 70);
+            this.MainMenu.Size = new System.Drawing.Size(180, 92);
+            // 
+            // MenuToSimplified
+            // 
+            this.MenuToSimplified.Name = "MenuToSimplified";
+            this.MenuToSimplified.Size = new System.Drawing.Size(179, 22);
+            this.MenuToSimplified.Text = "Convert to Simplified";
+            this.MenuToSimplified.Click += new System.EventHandler(this.MenuToSimplified_Click);
             // 
             // MenuToTraditional
             // 
@@ -90,12 +99,12 @@
             this.MenuToTraditional.Text = "Convert to Traditional";
             this.MenuToTraditional.Click += new System.EventHandler(this.MenuToTraditional_Click);
             // 
-            // MenuToSimplified
+            // MenuFont
             // 
-            this.MenuToSimplified.Name = "MenuToSimplified";
-            this.MenuToSimplified.Size = new System.Drawing.Size(179, 22);
-            this.MenuToSimplified.Text = "Convert to Simplified";
-            this.MenuToSimplified.Click += new System.EventHandler(this.MenuToSimplified_Click);
+            this.MenuFont.Name = "MenuFont";
+            this.MenuFont.Size = new System.Drawing.Size(179, 22);
+            this.MenuFont.Text = "Font...";
+            this.MenuFont.Click += new System.EventHandler(this.MenuFont_Click);
             // 
             // WndEditor
             // 
@@ -121,6 +130,7 @@
         private System.Windows.Forms.ContextMenuStrip MainMenu;
         private System.Windows.Forms.ToolStripMenuItem MenuToSimplified;
         private System.Windows.Forms.ToolStripMenuItem MenuToTraditional;
+        private System.Windows.Forms.ToolStripMenuItem MenuFont;
 
     }
 }
