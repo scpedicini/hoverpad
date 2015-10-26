@@ -105,6 +105,7 @@ namespace Chinese_Hoverpad
             //List<string> defList = new List<string>();
             var defPairs = new List<KeyValuePair<string, string>>();
 
+            
 
             foreach (var word in words)
             {
@@ -270,6 +271,16 @@ namespace Chinese_Hoverpad
         private void TimerPopup_Tick(object sender, EventArgs e)
         {
             //ExamineText(TextEditor.PointToClient(Cursor.Position));
+        }
+
+        private void MenuToSimplified_Click(object sender, EventArgs e)
+        {
+            TextEditor.Text = Microsoft.VisualBasic.Strings.StrConv(TextEditor.Text, Microsoft.VisualBasic.VbStrConv.SimplifiedChinese);
+        }
+
+        private void MenuToTraditional_Click(object sender, EventArgs e)
+        {
+            TextEditor.Text = Microsoft.VisualBasic.Strings.StrConv(TextEditor.Text, Microsoft.VisualBasic.VbStrConv.TraditionalChinese);
         }
 
       

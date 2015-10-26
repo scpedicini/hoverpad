@@ -33,6 +33,10 @@
             this.LabelPopup = new System.Windows.Forms.Label();
             this.TimerPopup = new System.Windows.Forms.Timer(this.components);
             this.TextEditor = new System.Windows.Forms.TextBox();
+            this.MainMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.MenuToTraditional = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuToSimplified = new System.Windows.Forms.ToolStripMenuItem();
+            this.MainMenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // LabelPopup
@@ -59,6 +63,7 @@
             this.TextEditor.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.TextEditor.ContextMenuStrip = this.MainMenu;
             this.TextEditor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TextEditor.ImeMode = System.Windows.Forms.ImeMode.On;
             this.TextEditor.Location = new System.Drawing.Point(12, 12);
@@ -70,6 +75,28 @@
             this.TextEditor.Text = "在歷史上那種事件已經發生了很多次。\r\n";
             this.TextEditor.MouseMove += new System.Windows.Forms.MouseEventHandler(this.TextEditor_MouseMove);
             // 
+            // MainMenu
+            // 
+            this.MainMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MenuToSimplified,
+            this.MenuToTraditional});
+            this.MainMenu.Name = "MainMenu";
+            this.MainMenu.Size = new System.Drawing.Size(180, 70);
+            // 
+            // MenuToTraditional
+            // 
+            this.MenuToTraditional.Name = "MenuToTraditional";
+            this.MenuToTraditional.Size = new System.Drawing.Size(179, 22);
+            this.MenuToTraditional.Text = "Convert to Traditional";
+            this.MenuToTraditional.Click += new System.EventHandler(this.MenuToTraditional_Click);
+            // 
+            // MenuToSimplified
+            // 
+            this.MenuToSimplified.Name = "MenuToSimplified";
+            this.MenuToSimplified.Size = new System.Drawing.Size(179, 22);
+            this.MenuToSimplified.Text = "Convert to Simplified";
+            this.MenuToSimplified.Click += new System.EventHandler(this.MenuToSimplified_Click);
+            // 
             // WndEditor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -80,6 +107,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "WndEditor";
             this.Text = "Chinese Hoverpad (Meta Peaks Technologies)";
+            this.MainMenu.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -90,6 +118,9 @@
         private System.Windows.Forms.Label LabelPopup;
         private System.Windows.Forms.Timer TimerPopup;
         private System.Windows.Forms.TextBox TextEditor;
+        private System.Windows.Forms.ContextMenuStrip MainMenu;
+        private System.Windows.Forms.ToolStripMenuItem MenuToSimplified;
+        private System.Windows.Forms.ToolStripMenuItem MenuToTraditional;
 
     }
 }
