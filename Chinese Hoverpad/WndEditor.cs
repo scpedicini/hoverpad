@@ -20,7 +20,6 @@ namespace Chinese_Hoverpad
         public WndEditor()
         {
             InitializeComponent();
-            //TextEditor.Text = "在歷史上那種事件已經發生了很多次。";
             //TextEditor.ZoomFactor = 2;
             MainPopup = new Popup();
             InitDictionary();
@@ -35,7 +34,7 @@ namespace Chinese_Hoverpad
 
 
             #if DEBUG
-            
+            TextEditor.Text = "在歷史上那種事件已經發生了很多次。";
             #else
             TextEditor.Clear();
             #endif
@@ -199,17 +198,27 @@ namespace Chinese_Hoverpad
                     if (!MainPopup.Visible || MainPopup.LastChar != cursorChar || MainPopup.LastCharIndex != charIndex)
                     {
                         var def = GetDefinitions(wordCombos);
+                        // some definitions are really long - how do we break these up.
+
+                        def = BreakText(def, 50);
 
                         if (!string.IsNullOrWhiteSpace(def))
                         {
                             MainPopup.Text = def;
                             MainPopup.LastChar = cursorChar;
                             MainPopup.LastCharIndex = charIndex;
+                            
+                            LabelPopup.Text = def;
+
+                            // check the size to make sure it is not bordering right side of screen
+                            
 
                             MainPopup.Position = new Point(editor.Left + cursorPoint.X, editor.Top + cursorPoint.Y + (int)charSize.Height);
+                            var maxWidth = Width - 10;
+                            if (MainPopup.Position.X + LabelPopup.Width > maxWidth) { MainPopup.Position.X -= ((MainPopup.Position.X + LabelPopup.Width) - maxWidth); }
+
                             LabelPopup.Visible = true;
                             LabelPopup.Location = MainPopup.Position; //PointToClient(MainPopup.Position);
-                            LabelPopup.Text = def;
 
                             // set a boolean to indicate that the program should show a popup
                             Debug.WriteLine("Definition block\r\n" + def);
@@ -233,6 +242,27 @@ namespace Chinese_Hoverpad
             }
 
         }
+
+        private string BreakText(string text, int maxCharsPerLine)
+        {
+            var lines = new List<string>(text.Split(new string[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries));
+
+            StringBuilder sb = new StringBuilder();
+
+            var curLine = 0;
+            while( curLine < lines.Count )
+            {
+                if(lines[curLine].Length > maxCharsPerLine)
+                {
+                    lines.Insert(curLine + 1, lines[curLine].Substring(maxCharsPerLine));
+                    lines[curLine] = lines[curLine].Substring(0, maxCharsPerLine);
+                }
+                curLine++;
+            }
+
+            return string.Join(Environment.NewLine, lines);
+        }
+
 
         private void TextEditor_MouseMove(object sender, MouseEventArgs e)
         {

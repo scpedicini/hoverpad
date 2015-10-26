@@ -1,0 +1,12 @@
+C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\bin\x86\Debug\Chinese Hoverpad.exe.config
+C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\bin\x86\Debug\Chinese Hoverpad.exe.manifest
+C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\bin\x86\Debug\Chinese Hoverpad.application
+C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\bin\x86\Debug\Chinese Hoverpad.exe
+C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\bin\x86\Debug\Chinese Hoverpad.pdb
+C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\x86\Debug\Chinese_Hoverpad.WndEditor.resources
+C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\x86\Debug\Chinese_Hoverpad.Properties.Resources.resources
+C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\x86\Debug\Chinese Hoverpad.csproj.GenerateResource.Cache
+C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\x86\Debug\Chinese Hoverpad.exe.manifest
+C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\x86\Debug\Chinese Hoverpad.application
+C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\x86\Debug\Chinese Hoverpad.exe
+C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\x86\Debug\Chinese Hoverpad.pdb

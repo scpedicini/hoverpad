@@ -11,3 +11,16 @@ C:\Users\scpedicini\Dropbox\Creations\Programming\Visual Studio 2012\Chinese Hov
 C:\Users\scpedicini\Dropbox\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\Debug\Chinese Hoverpad.exe
 C:\Users\scpedicini\Dropbox\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\Debug\Chinese Hoverpad.pdb
 C:\Users\scpedicini\Dropbox\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\Debug\Chinese Hoverpad.csprojResolveAssemblyReference.cache
+C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\bin\Debug\Chinese Hoverpad.exe.config
+C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\Debug\Chinese Hoverpad.exe
+C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\Debug\Chinese Hoverpad.pdb
+C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\bin\Debug\Chinese Hoverpad.exe.manifest
+C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\bin\Debug\Chinese Hoverpad.application
+C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\bin\Debug\Chinese Hoverpad.exe
+C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\bin\Debug\Chinese Hoverpad.pdb
+C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\Debug\Chinese Hoverpad.csprojResolveAssemblyReference.cache
+C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\Debug\Chinese_Hoverpad.WndEditor.resources
+C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\Debug\Chinese_Hoverpad.Properties.Resources.resources
+C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\Debug\Chinese Hoverpad.csproj.GenerateResource.Cache
+C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\Debug\Chinese Hoverpad.exe.manifest
+C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\Debug\Chinese Hoverpad.application
