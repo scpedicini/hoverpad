@@ -5,5 +5,11 @@
     <Setting Name="FontName" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
+    <Setting Name="TextBuffer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">歡迎回來</Value>
+    </Setting>
+    <Setting Name="FontSize" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">14</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

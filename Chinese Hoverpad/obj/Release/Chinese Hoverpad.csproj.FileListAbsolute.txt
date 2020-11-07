@@ -14,13 +14,10 @@ C:\Users\scpedicini\Dropbox\Creations\Programming\Visual Studio 2012\Chinese Hov
 C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\bin\Release\Chinese Hoverpad.exe.config
 C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\Release\Chinese Hoverpad.exe
 C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\Release\Chinese Hoverpad.pdb
-C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\bin\Release\Chinese Hoverpad.exe.manifest
-C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\bin\Release\Chinese Hoverpad.application
 C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\bin\Release\Chinese Hoverpad.exe
 C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\bin\Release\Chinese Hoverpad.pdb
-C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\Release\Chinese Hoverpad.csprojResolveAssemblyReference.cache
 C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\Release\Chinese_Hoverpad.WndEditor.resources
 C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\Release\Chinese_Hoverpad.Properties.Resources.resources
 C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\Release\Chinese Hoverpad.csproj.GenerateResource.Cache
-C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\Release\Chinese Hoverpad.exe.manifest
-C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\Release\Chinese Hoverpad.application
+C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\Release\Chinese Hoverpad.csproj.CoreCompileInputs.cache
+C:\Data\Creations\Programming\Visual Studio 2012\Chinese Hoverpad\Chinese Hoverpad\obj\Release\Chinese Hoverpad.csprojAssemblyReference.cache

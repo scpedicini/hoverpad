@@ -17,6 +17,8 @@ namespace Chinese_Hoverpad
         Dictionary<string, ChineseDefinition> DictChinese;
         Popup MainPopup;
 
+
+
         public WndEditor()
         {
             InitializeComponent();
@@ -36,7 +38,7 @@ namespace Chinese_Hoverpad
             {
                 if (!string.IsNullOrWhiteSpace(Properties.Settings.Default.FontName))
                 {
-                    TextEditor.Font = new Font(Properties.Settings.Default.FontName, TextEditor.Font.Size);
+                    TextEditor.Font = new Font(Properties.Settings.Default.FontName, Properties.Settings.Default.FontSize);
                 }
             }
             catch
@@ -44,13 +46,21 @@ namespace Chinese_Hoverpad
                 // revert to default font
             }
 
+            try
+            {
+                if (!string.IsNullOrWhiteSpace(Properties.Settings.Default.TextBuffer))
+                    TextEditor.Text = Properties.Settings.Default.TextBuffer;
 
+            }
+            catch
+            {
+                TextEditor.Clear();
+            }
 
-            #if DEBUG
-            TextEditor.Text = "在歷史上那種事件已經發生了很多次。";
-            #else
-            TextEditor.Clear();
-            #endif
+            //#if DEBUG
+            //    TextEditor.Text = "在歷史上那種事件已經發生了很多次。";
+            //#else
+            //#endif
         }
 
         void TextEditor_MouseWheel(object sender, MouseEventArgs e)
@@ -338,7 +348,6 @@ namespace Chinese_Hoverpad
 
                     TextEditor.Font = new Font(fd.Font.Name, TextEditor.Font.Size);
                     // save change
-                    Properties.Settings.Default.FontName = fd.Font.Name;
                     Properties.Settings.Default.Save();
 
                 }
@@ -349,7 +358,13 @@ namespace Chinese_Hoverpad
             }
         }
 
-      
+        private void WndEditor_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Properties.Settings.Default.FontName = TextEditor.Font.Name;
+            Properties.Settings.Default.FontSize = TextEditor.Font.Size;
+            Properties.Settings.Default.TextBuffer = TextEditor.Text.Trim();
+            Properties.Settings.Default.Save();
+        }
     }
 
 }

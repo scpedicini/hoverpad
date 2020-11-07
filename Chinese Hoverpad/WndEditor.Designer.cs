@@ -68,6 +68,7 @@
             this.TextEditor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TextEditor.ImeMode = System.Windows.Forms.ImeMode.On;
             this.TextEditor.Location = new System.Drawing.Point(12, 12);
+            this.TextEditor.MaxLength = 0;
             this.TextEditor.Multiline = true;
             this.TextEditor.Name = "TextEditor";
             this.TextEditor.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
@@ -83,7 +84,7 @@
             this.MenuToTraditional,
             this.MenuFont});
             this.MainMenu.Name = "MainMenu";
-            this.MainMenu.Size = new System.Drawing.Size(180, 92);
+            this.MainMenu.Size = new System.Drawing.Size(180, 70);
             // 
             // MenuToSimplified
             // 
@@ -116,6 +117,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "WndEditor";
             this.Text = "Chinese Hoverpad (Meta Peaks Technologies)";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.WndEditor_FormClosing);
             this.MainMenu.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
