@@ -1,6 +1,6 @@
-# hoverpad
-Traditional and Simplified Chinese notepad that provides mouse-over functionality with instant translations.
+# Hoverpad
+Mandarin Chinese notepad that provides mouse-over functionality with instant translations, and the ability to convert between traditional and simplified.
 
 
 
-![alt tag](http://metapeaks.com/img/HoverpadScreenshot.png)
+![alt tag](screenshot.png)
