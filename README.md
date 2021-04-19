@@ -3,7 +3,7 @@ Mandarin Chinese notepad that provides mouse-over functionality with instant tra
 
 
 
-![alt tag](screenshot.png)
+![alt tag](screenshot.jpg)
 
 
 
