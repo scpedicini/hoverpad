@@ -84,26 +84,26 @@
             this.MenuToTraditional,
             this.MenuFont});
             this.MainMenu.Name = "MainMenu";
-            this.MainMenu.Size = new System.Drawing.Size(180, 70);
+            this.MainMenu.Size = new System.Drawing.Size(189, 70);
             // 
             // MenuToSimplified
             // 
             this.MenuToSimplified.Name = "MenuToSimplified";
-            this.MenuToSimplified.Size = new System.Drawing.Size(179, 22);
+            this.MenuToSimplified.Size = new System.Drawing.Size(188, 22);
             this.MenuToSimplified.Text = "Convert to Simplified";
             this.MenuToSimplified.Click += new System.EventHandler(this.MenuToSimplified_Click);
             // 
             // MenuToTraditional
             // 
             this.MenuToTraditional.Name = "MenuToTraditional";
-            this.MenuToTraditional.Size = new System.Drawing.Size(179, 22);
+            this.MenuToTraditional.Size = new System.Drawing.Size(188, 22);
             this.MenuToTraditional.Text = "Convert to Traditional";
             this.MenuToTraditional.Click += new System.EventHandler(this.MenuToTraditional_Click);
             // 
             // MenuFont
             // 
             this.MenuFont.Name = "MenuFont";
-            this.MenuFont.Size = new System.Drawing.Size(179, 22);
+            this.MenuFont.Size = new System.Drawing.Size(188, 22);
             this.MenuFont.Text = "Font...";
             this.MenuFont.Click += new System.EventHandler(this.MenuFont_Click);
             // 
@@ -116,7 +116,7 @@
             this.Controls.Add(this.TextEditor);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "WndEditor";
-            this.Text = "Chinese Hoverpad (Meta Peaks Technologies)";
+            this.Text = "Chinese Hoverpad (Specular Realms LLC)";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.WndEditor_FormClosing);
             this.MainMenu.ResumeLayout(false);
             this.ResumeLayout(false);
